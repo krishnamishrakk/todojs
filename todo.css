@@ -1,0 +1,157 @@
+*{
+    background-color:rgb(17, 17, 18);
+    color: white;
+ 
+}
+p{
+    margin-left: 100px;
+    font-size: 50px;
+    font-style:strong;
+    font-family: sans-serif;
+}
+p1{
+    margin-left: 100px;
+    font-size: 40px;
+    color: white;
+}
+p2{
+    float:right;
+    font-size: 32px;
+    margin-right: 30px;
+}
+.material-icons.outlined{
+    color: aqua;
+    font-size: 40px;
+    
+}
+
+
+
+.add{
+    float: right;
+    font-size: 32px;
+}
+.button1{
+    float: right;
+    text-decoration: none;
+    border: none;
+background-color: white;}
+    .box1{width:300px;
+        border: 3px solid white;
+
+    }
+    /* .container2{
+        width: 40%;
+        border: 3px solid red;
+        background-color: white;
+        padding: 20px 30px;
+        color:black;
+        box-sizing: border-box;
+        position: absolute;
+        top: 50%;
+        left: 30%;
+        visibility:hidden;
+    }
+    .task{
+        
+        padding: 20px 30px;
+        background-color: white;
+        border: 5px solid red;
+        box-sizing: border-box;
+
+    }
+    input{
+        height: 40px;
+        width: 60%;
+        background-color: aliceblue;
+        color: black;
+    }
+    .newtask{
+        width: 100%;
+        
+        margin-top: 20px;
+        background-color: white;
+        padding: 30px 30px;
+    }
+    .button2{
+        float:right;
+    } */
+    .button2{
+        float:right;
+        margin-right: 20px;
+        margin-bottom: 30px;
+    }
+    .container2{
+        margin-top: 60px;
+    width: 40%;
+    border: 3px  solid rgb(255, 0, 38);
+    position:absolute;
+    top:400px;
+    left: 400px;
+    border-radius: 8px;
+    padding:30px 40px;
+    display: none;
+
+}
+#newtask{
+background-color: white;
+padding: 20px;
+}
+#input{
+    height: 70%;
+    width: 70%;
+    padding: 16px;
+    font-size: larger;
+}
+#newtask button{
+    float: right;
+    height: 60px;
+    background-color: aqua;
+    font-weight: bold;
+    width: 100px;
+    font-size: 22px;
+}
+.taskadd{
+    /* background-color: rgb(203, 200, 200); */
+    width:100%;
+    margin-top: 100px;
+    /* padding: 30px 20px; */
+    /* border: 5px solid greenyellow; */
+    box-sizing: border-box;
+    height: auto;
+    font-size: 28px;
+    display: none;
+    
+}
+.newbox{display: inline-block;
+    justify-content: space-between;
+    font-size: 40px;}
+
+    .newbox1{
+        height: 300px;
+        width:242px;
+        border:4px solid red;
+        display: flex;
+        flex-direction: row;
+        margin: 50px;
+        justify-content: space-around;
+        text-align: center;
+    }
+
+
+.delete{
+    font-size: 22px;
+    background-color: red;
+    height: 50px;
+    width: 60px;
+    cursor: pointer;
+     margin-top: 10px;
+    margin-left: 50px; 
+
+
+}
+.completed{ text-decoration: line-through;
+    cursor: pointer;
+
+}
+    
